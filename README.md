@@ -1,5 +1,5 @@
 # rainDemo
-To run you need to install javaFX and create build.sbt like that:
+To run you need to install javaFX, copy org.fxyz3d.samples to you project, and create build.sbt like that:
 ```
 lazy val proto = (Project("proto", file("proto"))
   enablePlugins(AssemblyPlugin)
