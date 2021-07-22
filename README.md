@@ -1,6 +1,6 @@
 # rainDemo
 To run you need to install javaFX and create build.sbt like that:
-
+```
 lazy val proto = (Project("proto", file("proto"))
   enablePlugins(AssemblyPlugin)
   settings(
@@ -23,3 +23,4 @@ lazy val proto = (Project("proto", file("proto"))
 "org.fxmisc.easybind" % "easybind" % "1.0.3",
 "org.reactfx" % "reactfx" % "2.0-M5")
 )))
+```
